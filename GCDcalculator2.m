@@ -1,5 +1,4 @@
 clc;clear;
-% 使用说明
 filename = 'gcd-0.1A-g-0-2.csv';
 
 % 1:三电极
@@ -13,11 +12,6 @@ dataRow = 21;
 fid = fopen(filename);
 fprintf('Processing %s ...\n',filename);
 output = ["开始时间(S)","结束时间(S)","电流(A)","放电时间(S)","电压窗口(V)","电容(F)"];
-% tline = fgetl(fid);
-% tline = fgetl(fid);
-% cellArr = split(tline,',');
-% strArr = string(cellArr);
-% sz = size(cellArr);
 channelNumber = 1;
 
 %获取电流
